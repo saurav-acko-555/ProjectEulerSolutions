@@ -1,16 +1,15 @@
-#include <iostream>
+#include <bits/stdc++.h>
 
 using namespace std;
-
-typedef unsigned long long int ll;
-int main(){
+#define int long long
+int32_t main(){
     int t;
     cin>>t;
     while(t--){
-        ll n, sum=2, l=1, r =2;
+        int n, sum=2, l=1, r =2;
         cin>>n;
-        for(ll i=3 ; true; i++){
-            ll value = l+r;
+        for(int i=3 ; true; i++){
+            int value = l+r;
             if(value > n){
             break;
         }
